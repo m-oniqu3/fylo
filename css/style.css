@@ -118,4 +118,53 @@ body {
   font-weight: 700;
   color: white;
 }
+
+.main {
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+}
+
+.main .container {
+  width: 85%;
+  margin: 0rem auto;
+}
+
+.main .container .sub-content {
+  padding: 2rem 0;
+}
+
+.main .container .sub-content .illustration {
+  margin: 2rem 0;
+}
+
+.main .container .sub-content .heading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  margin-bottom: 0.5rem;
+}
+
+.main .container .sub-content .text {
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.main .container .productive {
+  text-align: left;
+}
+
+.main .container .productive .sub-content .illustration img {
+  width: 100%;
+}
+
+.main .container .productive .sub-content .link {
+  display: inline-block;
+}
+
+.main .container .productive .sub-content .link p {
+  border-bottom: 2px solid #65e2d9;
+  padding-bottom: 3px;
+  color: #65e2d9;
+  font-size: 0.875rem;
+}
 /*# sourceMappingURL=style.css.map */
