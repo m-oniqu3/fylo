@@ -16,6 +16,19 @@ body {
   background-color: getColor(mainDarkBlue);
 }
 
+//Global Styles
+.button {
+  margin: 1rem;
+  .btn {
+    padding: 1rem 2rem;
+    background-color: getColor(blue);
+    border: none;
+    border-radius: 30px;
+    font-weight: $bold;
+    color: getColor(white);
+  }
+}
+
 .main-heading {
   background-color: getColor(darkBlue);
 
@@ -96,18 +109,8 @@ body {
             margin: 1rem;
           }
 
-          .button {
-            margin: 1rem;
-
-            .btn {
-              padding: 1rem 2rem;
-              background-color: getColor(blue);
-              border: none;
-              border-radius: 30px;
-              width: 85%;
-              font-weight: $bold;
-              color: getColor(white);
-            }
+          .btn {
+            width: 85%;
           }
         }
       }
@@ -159,8 +162,79 @@ body {
             border-bottom: 2px solid getColor(cyan);
             padding-bottom: 3px;
             color: getColor(cyan);
-            font-size: 0.875rem;
+            font-size: $main-size;
           }
+        }
+      }
+    }
+
+    .test {
+      margin-top: 5rem;
+      width: 95%;
+      margin: 10rem auto;
+
+      .testimonials {
+        text-align: left;
+
+        .reviews {
+          background-color: getColor(testimonialsDarkBlue);
+          padding: 2rem 1rem 1rem 1rem;
+          margin: 2rem 0;
+          font-size: 0.8rem;
+          line-height: 2;
+
+          .profile {
+            display: flex;
+            align-items: center;
+
+            img {
+              width: 2rem;
+              height: 2rem;
+              border-radius: 50%;
+            }
+
+            .info {
+              margin-left: 0.5rem;
+              padding: 1rem 0;
+
+              .name {
+                font-weight: $bold;
+                letter-spacing: 1px;
+              }
+              .title {
+                font-size: 0.6rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background-color: getColor(footerDarkBlue);
+    .support {
+      background-color: getColor(darkBlue);
+      border-radius: 10px;
+      padding: 1rem;
+
+      .sub-content {
+        .heading {
+          font-size: 0.975rem;
+        }
+
+        .text {
+          font-size: $main-size;
+        }
+        input {
+          padding: 1rem 2rem;
+          background-color: getColor(white);
+          border: none;
+          border-radius: 30px;
+          width: 90%;
+          margin-top: 1rem;
+        }
+        .btn {
+          width: 100%;
         }
       }
     }

@@ -12,6 +12,19 @@ body {
   background-color: #181f2a;
 }
 
+.button {
+  margin: 1rem;
+}
+
+.button .btn {
+  padding: 1rem 2rem;
+  background-color: #339ecc;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  color: white;
+}
+
 .main-heading {
   background-color: #1c2431;
 }
@@ -105,18 +118,8 @@ body {
   margin: 1rem;
 }
 
-.main-heading .bg .container .intro .main-content .button {
-  margin: 1rem;
-}
-
-.main-heading .bg .container .intro .main-content .button .btn {
-  padding: 1rem 2rem;
-  background-color: #339ecc;
-  border: none;
-  border-radius: 30px;
+.main-heading .bg .container .intro .main-content .btn {
   width: 85%;
-  font-weight: 700;
-  color: white;
 }
 
 .main {
@@ -166,5 +169,83 @@ body {
   padding-bottom: 3px;
   color: #65e2d9;
   font-size: 0.875rem;
+}
+
+.main .container .test {
+  margin-top: 5rem;
+  width: 95%;
+  margin: 10rem auto;
+}
+
+.main .container .test .testimonials {
+  text-align: left;
+}
+
+.main .container .test .testimonials .reviews {
+  background-color: #202a3c;
+  padding: 2rem 1rem 1rem 1rem;
+  margin: 2rem 0;
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.main .container .test .testimonials .reviews .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .test .testimonials .reviews .profile img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.main .container .test .testimonials .reviews .profile .info {
+  margin-left: 0.5rem;
+  padding: 1rem 0;
+}
+
+.main .container .test .testimonials .reviews .profile .info .name {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.main .container .test .testimonials .reviews .profile .info .title {
+  font-size: 0.6rem;
+}
+
+.main footer {
+  background-color: #0b1523;
+}
+
+.main footer .support {
+  background-color: #1c2431;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.main footer .support .sub-content .heading {
+  font-size: 0.975rem;
+}
+
+.main footer .support .sub-content .text {
+  font-size: 0.875rem;
+}
+
+.main footer .support .sub-content input {
+  padding: 1rem 2rem;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  width: 90%;
+  margin-top: 1rem;
+}
+
+.main footer .support .sub-content .btn {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
