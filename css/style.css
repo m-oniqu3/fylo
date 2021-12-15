@@ -220,12 +220,15 @@ body {
 
 .main footer {
   background-color: #0b1523;
+  text-align: left;
+  padding: 2rem 0;
 }
 
 .main footer .support {
   background-color: #1c2431;
   border-radius: 10px;
   padding: 1rem;
+  text-align: center;
 }
 
 .main footer .support .sub-content .heading {
@@ -247,5 +250,44 @@ body {
 
 .main footer .support .sub-content .btn {
   width: 100%;
+}
+
+.main footer .logo {
+  margin: 3rem 0;
+  padding: 1rem 0;
+}
+
+.main footer .contact {
+  margin: 2rem 0;
+}
+
+.main footer .contact .contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0;
+}
+
+.main footer .contact .contact-info .contact-text {
+  margin-left: 2rem;
+}
+
+.main footer .quick-links {
+  padding: 5rem 0;
+}
+
+.main footer .quick-links li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.main footer .quick-links li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+}
+
+.main footer .quick-links .second-set {
+  margin-top: 4rem;
 }
 /*# sourceMappingURL=style.css.map */

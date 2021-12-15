@@ -212,10 +212,13 @@ body {
   }
   footer {
     background-color: getColor(footerDarkBlue);
+    text-align: left;
+    padding: 2rem 0;
     .support {
       background-color: getColor(darkBlue);
       border-radius: 10px;
       padding: 1rem;
+      text-align: center;
 
       .sub-content {
         .heading {
@@ -236,6 +239,42 @@ body {
         .btn {
           width: 100%;
         }
+      }
+    }
+
+    .logo {
+      margin: 3rem 0;
+      padding: 1rem 0;
+    }
+
+    .contact {
+      margin: 2rem 0;
+
+      .contact-info {
+        display: flex;
+        margin: 1rem 0;
+
+        .contact-text {
+          margin-left: 2rem;
+        }
+      }
+    }
+    .quick-links {
+      padding: 5rem 0;
+
+      li {
+        list-style: none;
+        margin: 1rem 0;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          font-size: 1.2rem;
+        }
+      }
+
+      .second-set {
+        margin-top: 4rem;
       }
     }
   }
