@@ -27,7 +27,7 @@ body {
     padding: 1.5rem;
 
     .logo {
-      width: 6rem;
+      width: 5rem;
 
       img {
         width: 100%;
@@ -52,44 +52,63 @@ body {
   }
 
   .container {
-    width: 80%;
-    margin: 5rem auto;
+    width: 85%;
+    margin: 0rem auto;
 
-    .intro {
-      text-align: center;
+    img {
+      position: relative;
+      width: 100%;
+      margin-top: 2.5rem;
+      z-index: 5;
+    }
+  }
 
-      img {
-        width: 100%;
-        margin: 2rem 0;
-      }
+  .wave {
+    width: 100%;
+    position: absolute;
+    top: 310px;
+    z-index: 1;
+  }
 
-      .main-content {
-        .heading {
-          font-family: $heading-font;
-          font-weight: $bold;
-          font-size: 1.5rem;
-          line-height: 1.5;
-          margin: 1rem 0;
-        }
+  .bg {
+    background-color: getColor(mainDarkBlue);
+    margin-top: 5rem;
 
-        .text {
-          font-size: $main-size;
-          font-weight: $normal;
-          line-height: 1.5;
-          margin: 1rem;
-        }
+    .container {
+      .intro {
+        text-align: center;
+        margin: 4rem 0;
 
-        .button {
-          margin: 1rem;
-
-          .btn {
-            padding: 1rem 2rem;
-            background-color: getColor(blue);
-            border: none;
-            border-radius: 30px;
-            width: 70%;
+        .main-content {
+          .heading {
+            font-family: $heading-font;
             font-weight: $bold;
-            color: getColor(white);
+            font-size: 1.5rem;
+            line-height: 1.5;
+            margin: 1rem 0;
+            position: relative;
+            z-index: 5;
+          }
+
+          .text {
+            font-size: $main-size;
+            font-weight: $normal;
+            line-height: 1.5;
+            margin: 1rem;
+          }
+
+          .button {
+            margin: 1rem;
+
+            .btn {
+              padding: 1rem 2rem;
+              background-color: getColor(blue);
+              border: none;
+              border-radius: 30px;
+              width: 85%;
+              font-weight: $bold;
+              color: getColor(white);
+            }
           }
         }
       }

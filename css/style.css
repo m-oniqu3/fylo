@@ -30,7 +30,7 @@ body {
 }
 
 .main-heading nav .logo {
-  width: 6rem;
+  width: 5rem;
 }
 
 .main-heading nav .logo img {
@@ -60,44 +60,61 @@ body {
 }
 
 .main-heading .container {
-  width: 80%;
-  margin: 5rem auto;
+  width: 85%;
+  margin: 0rem auto;
 }
 
-.main-heading .container .intro {
-  text-align: center;
-}
-
-.main-heading .container .intro img {
+.main-heading .container img {
+  position: relative;
   width: 100%;
-  margin: 2rem 0;
+  margin-top: 2.5rem;
+  z-index: 5;
 }
 
-.main-heading .container .intro .main-content .heading {
+.main-heading .wave {
+  width: 100%;
+  position: absolute;
+  top: 310px;
+  z-index: 1;
+}
+
+.main-heading .bg {
+  background-color: #181f2a;
+  margin-top: 5rem;
+}
+
+.main-heading .bg .container .intro {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.main-heading .bg .container .intro .main-content .heading {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.5;
   margin: 1rem 0;
+  position: relative;
+  z-index: 5;
 }
 
-.main-heading .container .intro .main-content .text {
+.main-heading .bg .container .intro .main-content .text {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   margin: 1rem;
 }
 
-.main-heading .container .intro .main-content .button {
+.main-heading .bg .container .intro .main-content .button {
   margin: 1rem;
 }
 
-.main-heading .container .intro .main-content .button .btn {
+.main-heading .bg .container .intro .main-content .button .btn {
   padding: 1rem 2rem;
   background-color: #339ecc;
   border: none;
   border-radius: 30px;
-  width: 70%;
+  width: 85%;
   font-weight: 700;
   color: white;
 }
