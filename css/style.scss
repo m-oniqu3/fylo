@@ -172,6 +172,7 @@ body {
       margin-top: 5rem;
       width: 95%;
       margin: 10rem auto;
+      padding-bottom: 10rem;
 
       .testimonials {
         text-align: left;
@@ -219,6 +220,8 @@ body {
       border-radius: 10px;
       padding: 1rem;
       text-align: center;
+      position: relative;
+      top: -210px;
 
       .sub-content {
         .heading {

@@ -175,6 +175,7 @@ body {
   margin-top: 5rem;
   width: 95%;
   margin: 10rem auto;
+  padding-bottom: 10rem;
 }
 
 .main .container .test .testimonials {
@@ -229,6 +230,8 @@ body {
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
+  position: relative;
+  top: -210px;
 }
 
 .main footer .support .sub-content .heading {
